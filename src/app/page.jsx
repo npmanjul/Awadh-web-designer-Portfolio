@@ -18,7 +18,7 @@ async function getProjects() {
       id: 2,
       title: "Motherhood Hosital",
       description:
-        "A hospital website featuring departments, doctor profiles, online appointment booking, emergency contacts, and a patient portal for reports and billing—accessible, responsive, and secure.",
+        "A hospital website featuring departments, doctor profiles, online appointment booking, and a patient portal for reports and billing.",
       image: "/hospital.png",
       demoUrl: "https://www.motherhoodindia.com/",
     },
