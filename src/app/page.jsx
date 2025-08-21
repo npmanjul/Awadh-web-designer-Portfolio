@@ -7,6 +7,14 @@ import Image from "next/image";
 async function getProjects() {
   return [
     {
+      id: 6,
+      title: "Agilus Diagnostic Pvt. Ltd.",
+      description:
+        "A diagnostics lab website to book tests, schedule home sample collection, view reports online, and find nearby centers—accurate.",
+      image: "/lab.png",
+      demoUrl: "https://srldiagnostics.co.in/",
+    },
+    {
       id: 1,
       title: "Fitness First",
       description:
@@ -29,6 +37,14 @@ async function getProjects() {
         "A healthcare website to find doctors, book appointments, and buy medicines online with secure payments and fast home delivery.",
       image: "/swasth-mitra.png",
       demoUrl: "https://swasthmitra.com/",
+    },
+    {
+      id: 7,
+      title: "UP Cement Workes",
+      description:
+        "A cement products company website featuring product catalog, technical specifications, pricing, dealer locator, and online ordering professional.",
+      image: "/cement.png",
+      demoUrl: "https://upcementworks.in/",
     },
     {
       id: 3,

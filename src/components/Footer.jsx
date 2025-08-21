@@ -17,12 +17,6 @@ import {
 const Footer = () => {
   const socialLinks = [
     {
-      name: "Github",
-      icon: Github,
-      href: "https://github.com/toprank",
-      color: "hover:text-white hover:bg-gray-800",
-    },
-    {
       name: "Twitter",
       icon: Twitter,
       href: "https://twitter.com/toprank",
@@ -46,27 +40,32 @@ const Footer = () => {
   const contactInfo = [
     {
       icon: MapPin,
-      title: "Address",
+      title: "Address ",
       content: [
-        "123 Innovation Drive",
-        "Tech Valley, CA 94025",
-        "United States",
+        "Sulabh Awas, A42/32, Sector 01,",
+        "Gomti Nagar, Lucknow",
+        "Uttar Pradesh, 226010",
       ],
     },
     {
+      icon: MapPin,
+      title: "Address",
+      content: [
+        "Shop no. 22/32,  ",
+        "Sector 34D, Sector 32, ",
+        "Chandigarh, 160022",
+      ],
+    },
+
+    {
       icon: Phone,
       title: "Phone",
-      content: ["+1 (555) 123-4567", "+1 (555) 987-6543"],
+      content: ["+91 9305030523"],
     },
     {
       icon: Mail,
       title: "Email",
-      content: ["hello@toprank.com", "support@toprank.com"],
-    },
-    {
-      icon: Clock,
-      title: "Hours",
-      content: ["Mon - Fri: 9AM - 6PM", "Sat: 10AM - 4PM", "Sun: Closed"],
+      content: ["connect@topranklucknow.com"],
     },
   ];
 
