@@ -8,68 +8,44 @@ async function getProjects() {
   return [
     {
       id: 1,
-      title: "AI Chat Application",
+      title: "Fitness First",
       description:
-        "A real-time chat app with AI integration, built with React and WebSocket.",
-      image:
-        "https://images.unsplash.com/photo-1587560699334-cc4ff634909a?w=400&h=250&fit=crop&crop=center",
-      demoUrl: "https://example.com/demo1",
+        "A modern gym website with class schedules, trainer profiles, membership plans, and online enrollment—fast, responsive, and SEO-optimized.",
+      image: "/gym.png",
+      demoUrl: "https://www.fitnessfirst.net.in/",
     },
     {
       id: 2,
-      title: "E-Commerce Dashboard",
+      title: "Motherhood Hosital",
       description:
-        "Modern admin dashboard for managing products, orders, and analytics.",
-      image:
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop&crop=center",
-      demoUrl: "https://example.com/demo2",
-    },
-    {
-      id: 3,
-      title: "E-Commerce Dashboard",
-      description:
-        "Modern admin dashboard for managing products, orders, and analytics.",
-      image:
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop&crop=center",
-      demoUrl: "https://example.com/demo2",
-    },
-    {
-      id: 4,
-      title: "E-Commerce Dashboard",
-      description:
-        "Modern admin dashboard for managing products, orders, and analytics.",
-      image:
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop&crop=center",
-      demoUrl: "https://example.com/demo2",
+        "A hospital website featuring departments, doctor profiles, online appointment booking, emergency contacts, and a patient portal for reports and billing—accessible, responsive, and secure.",
+      image: "/hospital.png",
+      demoUrl: "https://www.motherhoodindia.com/",
     },
     {
       id: 5,
-      title: "E-Commerce Dashboard",
+      title: "Swasth Mitra",
       description:
-        "Modern admin dashboard for managing products, orders, and analytics.",
-      image:
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop&crop=center",
-      demoUrl: "https://example.com/demo2",
+        "A healthcare website to find doctors, book appointments, and buy medicines online with secure payments and fast home delivery.",
+      image: "/swasth-mitra.png",
+      demoUrl: "https://swasthmitra.com/",
     },
     {
-      id: 6,
-      title: "E-Commerce Dashboard",
+      id: 3,
+      title: "MMMUT Reso",
       description:
-        "Modern admin dashboard for managing products, orders, and analytics.",
-      image:
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop&crop=center",
-      demoUrl: "https://example.com/demo2",
+        "University ERP portal for students, faculty, and admin to manage admissions, attendance, fees, notices and mobile-friendly.",
+      image: "/mmmutreso.png",
+      demoUrl: "https://mmmut.xyz/",
     },
     {
-      id: 7,
-      title: "E-Commerce Dashboard",
+      id: 4,
+      title: "Pushpak Drone Viman Pvt. Ltd.",
       description:
-        "Modern admin dashboard for managing products, orders, and analytics.",
-      image:
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop&crop=center",
-      demoUrl: "https://example.com/demo2",
+        "A drone delivery company with a modern website for customers to book drone, view flights, and track their deliveries.",
+      image: "/pdv.png",
+      demoUrl: "https://www.pushpakdroneviman.in/",
     },
-    // ...rest of your projects
   ];
 }
 
