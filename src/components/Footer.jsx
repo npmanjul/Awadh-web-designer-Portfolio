@@ -12,6 +12,7 @@ import {
   Heart,
   Star,
   Award,
+  LocateFixed,
 } from "lucide-react";
 
 const Footer = () => {
@@ -39,22 +40,18 @@ const Footer = () => {
 
   const contactInfo = [
     {
-      icon: MapPin,
-      title: "Address ",
-      content: [
-        "Sulabh Awas, A42/32, Sector 01,",
-        "Gomti Nagar, Lucknow",
-        "Uttar Pradesh, 226010",
-      ],
-    },
-    {
-      icon: MapPin,
+      icon: LocateFixed,
       title: "Address",
       content: [
         "Shop no. 22/32,  ",
         "Sector 34D, Sector 32, ",
         "Chandigarh, 160022",
       ],
+    },
+    {
+      icon: MapPin,
+      title: "Serving Area",
+      content: ["●  Chandigarh", "●  Lucknow"],
     },
 
     {
