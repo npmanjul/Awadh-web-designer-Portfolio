@@ -14,14 +14,15 @@ const Navigation = () => {
                 <Image
                   src="/logo.png"
                   alt="Awadh Web Designer"
-                  width={70} // Adjusted size for proper display
-                  height={70}
+                  width={100} // Adjusted size for proper display
+                  height={100}
+                  className="h-12 md:h-16 w-auto"
                 />
                 <div className="flex flex-col leading-tight">
-                  <span className="text-white text-[24px] font-bold">
+                  <span className="text-white text-[18px] md:text-[24px] font-bold">
                     Awadh
                   </span>
-                  <span className="text-slate-400 text-[17px]">
+                  <span className="text-slate-400 text-[14px] md:text-[17px]">
                     Web Designer
                   </span>
                 </div>
