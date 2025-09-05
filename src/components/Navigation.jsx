@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Navigation = () => {
   return (
@@ -9,11 +10,22 @@ const Navigation = () => {
         <div className="flex justify-between items-center">
           <div className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
             <Link href="/">
-              <img
-                src="https://topranklucknow.com/wp-content/uploads/2025/04/cropped-Top-Rank-Logo-removebg-preview.png"
-                alt="logo"
-                className="h-12 sm:h-15 "
-              />
+              <div className="flex items-center gap-3 cursor-pointer">
+                <Image
+                  src="/logo.png"
+                  alt="Awadh Web Designer"
+                  width={70} // Adjusted size for proper display
+                  height={70}
+                />
+                <div className="flex flex-col leading-tight">
+                  <span className="text-white text-[24px] font-bold">
+                    Awadh
+                  </span>
+                  <span className="text-slate-400 text-[17px]">
+                    Web Designer
+                  </span>
+                </div>
+              </div>
             </Link>
           </div>
         </div>

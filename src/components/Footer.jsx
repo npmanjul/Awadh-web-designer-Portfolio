@@ -14,6 +14,8 @@ import {
   Award,
   LocateFixed,
 } from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   const socialLinks = [
@@ -43,26 +45,26 @@ const Footer = () => {
       icon: LocateFixed,
       title: "Address",
       content: [
-        "Shop no. 22/32,  ",
-        "Sector 34D, Sector 32, ",
-        "Chandigarh, 160022",
+        "Shop No.29,  ",
+        "near Jiva Restaurant, Hazratganj,",
+        "Lucknow, Uttar Pradesh 226001",
       ],
     },
     {
       icon: MapPin,
       title: "Serving Area",
-      content: ["●  Chandigarh", "●  Lucknow"],
+      content: ["●  Lucknow"],
     },
 
     {
       icon: Phone,
       title: "Phone",
-      content: ["+91 9305030523"],
+      content: ["+91 8299425338"],
     },
     {
       icon: Mail,
       title: "Email",
-      content: ["connect@topranklucknow.com"],
+      content: ["connect@awadhweb.store"],
     },
   ];
 
@@ -75,11 +77,24 @@ const Footer = () => {
             {/* Company Info */}
             <div className="space-y-6">
               <div className="flex items-center space-x-3">
-                <img
-                  src="https://topranklucknow.com/wp-content/uploads/2025/04/cropped-Top-Rank-Logo-removebg-preview.png"
-                  alt="TopRank Digital Service"
-                  className="h-12 md:h-15 w-auto"
-                />
+                <Link href="/">
+                  <div className="flex items-center gap-3 cursor-pointer">
+                    <Image
+                      src="/logo.png"
+                      alt="Awadh Web Designer"
+                      width={90} // Adjusted size for proper display
+                      height={90}
+                    />
+                    <div className="flex flex-col leading-tight">
+                      <span className="text-white text-[28px] font-bold">
+                        Awadh
+                      </span>
+                      <span className="text-slate-400 text-[22px] font-bold">
+                        Web Designer
+                      </span>
+                    </div>
+                  </div>
+                </Link>
               </div>
 
               <p className="text-slate-400 leading-relaxed text-sm md:text-base max-w-lg">
@@ -89,7 +104,7 @@ const Footer = () => {
               </p>
 
               {/* Social Links */}
-              <div className="flex space-x-3">
+              {/* <div className="flex space-x-3">
                 {socialLinks.map((social) => {
                   const IconComponent = social.icon;
                   return (
@@ -105,7 +120,7 @@ const Footer = () => {
                     </a>
                   );
                 })}
-              </div>
+              </div> */}
 
               {/* Enhanced Certifications */}
               <div className="flex justify-start items-center gap-3">
@@ -167,7 +182,10 @@ const Footer = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6">
             <div className="flex flex-col lg:flex-row items-center justify-between gap-4">
               <div className="flex flex-col sm:flex-row items-center text-center gap-4 text-sm text-slate-500">
-                <p>© 2025 TopRank Digital Service. All rights reserved.</p>
+                <p>
+                  © {new Date().getFullYear()} Awadh Web Designer. All rights
+                  reserved.
+                </p>
               </div>
 
               <div className="flex items-center gap-2 text-sm text-slate-500">
